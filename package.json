@@ -1,6 +1,6 @@
 {
   "name": "@alitinart/react-animate",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "description": "Animate your React Components with ease",
   "author": "alitinart",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^18.0.11"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
