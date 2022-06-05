@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from 'react'
 
-import { Animate } from '@alitinart/animate-react'
-import '@alitinart/animate-react/dist/index.css'
+import { Animate } from '@alitinart/react-animate'
+import '@alitinart/react-animate/dist/index.css'
 
 const App = () => {
   return (
