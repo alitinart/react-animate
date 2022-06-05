@@ -1,4 +1,4 @@
-# react-animate
+# animate-react
 
 > Animate your react components with ease
 
