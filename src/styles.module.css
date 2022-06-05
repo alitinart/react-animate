@@ -1,9 +1,50 @@
-/* add css module styles here (optional) */
+.waiting-animation {
+  opacity: 0;
+}
+.animation {
+  animation-fill-mode: forwards;
+  display: inherit;
+  position: relative;
+  overflow-x: hidden !important;
+}
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+/* Animation Class Names */
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+.slideLeft {
+  animation-name: slideLeft;
+}
+.slideRight {
+  animation-name: slideRight;
+}
+
+/* Animation Keyframes */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(99.9vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-99.9vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

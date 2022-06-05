@@ -1,7 +1,7 @@
 import React__default, { useRef, useState, useEffect, createElement } from 'react';
 import jsxRuntime from 'react/jsx-runtime';
 
-var styles = {"test":"_styles-module__test__3ybTi"};
+var styles = {"waiting-animation":"_styles-module__waiting-animation__Kpx-E","-webkit-animation":"_styles-module__animation__1otk9","animation":"_styles-module__animation__1otk9","fadeIn":"_styles-module__fadeIn__3uImN","slideLeft":"_styles-module__slideLeft__2zM2M","slideRight":"_styles-module__slideRight__3PgoG"};
 
 function unwrapExports (x) {
 	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
@@ -27423,7 +27423,7 @@ const Animate = ({
     style: {
       animationDuration
     },
-    className: inViewport && enterCount >= 1 ? `${styles.animation} ${animationType} ${classToGive}` : styles.waitingAnimation
+    className: inViewport && enterCount >= 1 ? `${styles.animation} ${animationType} ${classToGive || ''}` : styles.waitingAnimation
   }, children);
 };
 

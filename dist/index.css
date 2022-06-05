@@ -1,9 +1,81 @@
-/* add css module styles here (optional) */
+._styles-module__waiting-animation__Kpx-E {
+  opacity: 0;
+}
+._styles-module__animation__1otk9 {
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  display: inherit;
+  position: relative;
+  overflow-x: hidden !important;
+}
 
-._styles-module__test__3ybTi {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
-  text-align: center;
+/* Animation Class Names */
+
+._styles-module__fadeIn__3uImN {
+  -webkit-animation-name: _styles-module__fadeIn__3uImN;
+          animation-name: _styles-module__fadeIn__3uImN;
+}
+._styles-module__slideLeft__2zM2M {
+  -webkit-animation-name: _styles-module__slideLeft__2zM2M;
+          animation-name: _styles-module__slideLeft__2zM2M;
+}
+._styles-module__slideRight__3PgoG {
+  -webkit-animation-name: _styles-module__slideRight__3PgoG;
+          animation-name: _styles-module__slideRight__3PgoG;
+}
+
+/* Animation Keyframes */
+
+@-webkit-keyframes _styles-module__fadeIn__3uImN {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes _styles-module__fadeIn__3uImN {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes _styles-module__slideLeft__2zM2M {
+  0% {
+    transform: translateX(99.9vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes _styles-module__slideLeft__2zM2M {
+  0% {
+    transform: translateX(99.9vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes _styles-module__slideRight__3PgoG {
+  0% {
+    transform: translateX(-99.9vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes _styles-module__slideRight__3PgoG {
+  0% {
+    transform: translateX(-99.9vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

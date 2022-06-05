@@ -4,7 +4,7 @@ var React = require('react');
 var React__default = _interopDefault(React);
 var jsxRuntime = _interopDefault(require('react/jsx-runtime'));
 
-var styles = {"test":"_styles-module__test__3ybTi"};
+var styles = {"waiting-animation":"_styles-module__waiting-animation__Kpx-E","-webkit-animation":"_styles-module__animation__1otk9","animation":"_styles-module__animation__1otk9","fadeIn":"_styles-module__fadeIn__3uImN","slideLeft":"_styles-module__slideLeft__2zM2M","slideRight":"_styles-module__slideRight__3PgoG"};
 
 function unwrapExports (x) {
 	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
@@ -27429,7 +27429,7 @@ var Animate = function Animate(_ref) {
     style: {
       animationDuration: animationDuration
     },
-    className: inViewport && enterCount >= 1 ? styles.animation + " " + animationType + " " + classToGive : styles.waitingAnimation
+    className: inViewport && enterCount >= 1 ? styles.animation + " " + animationType + " " + (classToGive || '') : styles.waitingAnimation
   }, children);
 };
 

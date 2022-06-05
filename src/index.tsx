@@ -52,7 +52,7 @@ export const Animate = ({
       }}
       className={
         inViewport && enterCount >= 1
-          ? `${styles.animation} ${animationType} ${classToGive}`
+          ? `${styles.animation} ${animationType} ${classToGive || ''}`
           : styles.waitingAnimation
       }
     >
