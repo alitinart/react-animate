@@ -1,3 +1,4 @@
+/// <reference types="react" />
 interface Props {
     children: any;
     animationDuration: string;

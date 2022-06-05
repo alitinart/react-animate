@@ -1,6 +1,6 @@
 {
-  "short_name": "react-animate",
-  "name": "react-animate",
+  "short_name": "@alitinart/animate-react",
+  "name": "@alitinart/animate-react",
   "icons": [
     {
       "src": "favicon.ico",

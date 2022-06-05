@@ -1,13 +1,13 @@
-# animate-react
+# @alitinart/animate-react
 
 > Animate your react components with ease
 
-[![NPM](https://img.shields.io/npm/v/react-animate.svg)](https://www.npmjs.com/package/react-animate) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@alitinart/animate-react.svg)](https://www.npmjs.com/package/@alitinart/animate-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-animate
+npm install --save @alitinart/animate-react
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save react-animate
 ```tsx
 import React, { Component } from 'react'
 
-import Animate from 'react-animate'
-import 'react-animate/dist/index.css'
+import Animate from '@alitinart/animate-react'
+import '@alitinart/animate-react/dist/index.css'
 
 class Example extends Component {
   render() {
