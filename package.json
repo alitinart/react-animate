@@ -1,10 +1,10 @@
 {
   "name": "@alitinart/react-animate",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Animate your React Components with ease",
   "author": "alitinart",
   "license": "MIT",
-  "repository": "alitinart/animate-react",
+  "repository": "alitinart/react-animate",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -47,7 +47,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.30.0",
-    "eslint-plugin-standard": "^4.1.0",
     "gh-pages": "^4.0.0",
     "microbundle-crl": "^0.13.11",
     "npm-run-all": "^4.1.5",
@@ -61,6 +60,7 @@
     "dist"
   ],
   "dependencies": {
+    "eslint-plugin-standard": "^5.0.0",
     "react-in-viewport": "^1.0.0-alpha.28"
   }
 }
