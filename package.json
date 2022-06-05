@@ -1,6 +1,6 @@
 {
   "name": "@alitinart/react-animate",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Animate your React Components with ease",
   "author": "alitinart",
   "license": "MIT",
@@ -22,9 +22,6 @@
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
-  },
-  "peerDependencies": {
-    "react": "^17.0.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
