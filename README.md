@@ -34,6 +34,51 @@ class Example extends Component {
 }
 ```
 
+## Creating your own custom animation
+
+index.tsx
+```tsx
+import React, { Component } from 'react'
+
+import Animate from '@alitinart/react-animate'
+import '@alitinart/react-animate/dist/index.css'
+
+class Example extends Component {
+  render() {
+    return (
+      <Animate
+        animationDuration='2s'
+        classToGive='animation-started'
+        customAnimationClass='customAnimation' // <--- Your custom animation class goes here
+      >
+        <h1>Hello World 😁</h1>
+      </Animate>
+    )
+  }
+}
+```
+
+index.css
+```css
+
+/* Creating Custom Animation */
+
+.customAnimation {
+  animation: customAnimation;
+}
+
+@keyframes customAnimation {
+  0%{
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+```
+
 ## Props
 
 | Prop Name            | Description                                                            | Usage                                             |

@@ -1,7 +1,7 @@
-._Kpx-E {
+._styles-module__waiting-animation__Kpx-E {
   opacity: 0;
 }
-._1otk9 {
+._styles-module__animation__1otk9 {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   display: inherit;
@@ -11,22 +11,22 @@
 
 /* Animation Class Names */
 
-._3uImN {
-  -webkit-animation-name: _3uImN;
-          animation-name: _3uImN;
+._styles-module__fadeIn__3uImN {
+  -webkit-animation-name: _styles-module__fadeIn__3uImN;
+          animation-name: _styles-module__fadeIn__3uImN;
 }
-._2zM2M {
-  -webkit-animation-name: _2zM2M;
-          animation-name: _2zM2M;
+._styles-module__slideLeft__2zM2M {
+  -webkit-animation-name: _styles-module__slideLeft__2zM2M;
+          animation-name: _styles-module__slideLeft__2zM2M;
 }
-._3PgoG {
-  -webkit-animation-name: _3PgoG;
-          animation-name: _3PgoG;
+._styles-module__slideRight__3PgoG {
+  -webkit-animation-name: _styles-module__slideRight__3PgoG;
+          animation-name: _styles-module__slideRight__3PgoG;
 }
 
 /* Animation Keyframes */
 
-@-webkit-keyframes _3uImN {
+@-webkit-keyframes _styles-module__fadeIn__3uImN {
   0% {
     opacity: 0;
   }
@@ -35,7 +35,7 @@
   }
 }
 
-@keyframes _3uImN {
+@keyframes _styles-module__fadeIn__3uImN {
   0% {
     opacity: 0;
   }
@@ -44,7 +44,7 @@
   }
 }
 
-@-webkit-keyframes _2zM2M {
+@-webkit-keyframes _styles-module__slideLeft__2zM2M {
   0% {
     transform: translateX(99.9vw);
   }
@@ -53,7 +53,7 @@
   }
 }
 
-@keyframes _2zM2M {
+@keyframes _styles-module__slideLeft__2zM2M {
   0% {
     transform: translateX(99.9vw);
   }
@@ -62,7 +62,7 @@
   }
 }
 
-@-webkit-keyframes _3PgoG {
+@-webkit-keyframes _styles-module__slideRight__3PgoG {
   0% {
     transform: translateX(-99.9vw);
   }
@@ -71,7 +71,7 @@
   }
 }
 
-@keyframes _3PgoG {
+@keyframes _styles-module__slideRight__3PgoG {
   0% {
     transform: translateX(-99.9vw);
   }

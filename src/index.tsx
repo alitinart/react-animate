@@ -5,7 +5,7 @@ import { useInViewport } from 'react-in-viewport'
 interface Props {
   children: any
   animationDuration: string
-  animationName: 'fadeIn' | 'slideRight' | 'slideLeft'
+  animationName?: 'fadeIn' | 'slideRight' | 'slideLeft'
   classToGive?: string
   customAnimationClass?: string
 }
