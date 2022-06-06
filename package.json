@@ -1,6 +1,6 @@
 {
   "name": "@alitinart/react-animate",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Animate your React Components with ease",
   "author": "alitinart",
   "license": "MIT",
@@ -60,7 +60,6 @@
     "dist"
   ],
   "dependencies": {
-    "eslint-plugin-standard": "^5.0.0",
     "react-in-viewport": "^1.0.0-alpha.28"
   }
 }

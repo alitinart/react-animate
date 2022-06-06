@@ -1,7 +1,7 @@
 var React = require('react');
 var reactInViewport = require('react-in-viewport');
 
-var styles = {"waiting-animation":"_styles-module__waiting-animation__Kpx-E","-webkit-animation":"_styles-module__animation__1otk9","animation":"_styles-module__animation__1otk9","fadeIn":"_styles-module__fadeIn__3uImN","slideLeft":"_styles-module__slideLeft__2zM2M","slideRight":"_styles-module__slideRight__3PgoG"};
+var styles = {"waiting-animation":"_Kpx-E","-webkit-animation":"_1otk9","animation":"_1otk9","fadeIn":"_3uImN","slideLeft":"_2zM2M","slideRight":"_3PgoG"};
 
 var Animate = function Animate(_ref) {
   var children = _ref.children,

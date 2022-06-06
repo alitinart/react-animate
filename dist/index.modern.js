@@ -1,22 +1,25 @@
 import { useRef, useState, useEffect, createElement } from 'react';
 import { useInViewport } from 'react-in-viewport';
 
-var styles = {"waiting-animation":"_styles-module__waiting-animation__Kpx-E","-webkit-animation":"_styles-module__animation__1otk9","animation":"_styles-module__animation__1otk9","fadeIn":"_styles-module__fadeIn__3uImN","slideLeft":"_styles-module__slideLeft__2zM2M","slideRight":"_styles-module__slideRight__3PgoG"};
+var styles = {"waiting-animation":"_Kpx-E","-webkit-animation":"_1otk9","animation":"_1otk9","fadeIn":"_3uImN","slideLeft":"_2zM2M","slideRight":"_3PgoG"};
 
-const Animate = ({
-  children,
-  animationDuration,
-  animationName,
-  classToGive,
-  customAnimationClass
-}) => {
-  const ref = useRef();
-  const {
-    inViewport,
-    enterCount
-  } = useInViewport(ref);
-  const [animationType, setAnimationType] = useState('fadeIn');
-  useEffect(() => {
+var Animate = function Animate(_ref) {
+  var children = _ref.children,
+      animationDuration = _ref.animationDuration,
+      animationName = _ref.animationName,
+      classToGive = _ref.classToGive,
+      customAnimationClass = _ref.customAnimationClass;
+  var ref = useRef();
+
+  var _useInViewport = useInViewport(ref),
+      inViewport = _useInViewport.inViewport,
+      enterCount = _useInViewport.enterCount;
+
+  var _React$useState = useState('fadeIn'),
+      animationType = _React$useState[0],
+      setAnimationType = _React$useState[1];
+
+  useEffect(function () {
     switch (animationName) {
       case 'fadeIn':
         {
@@ -45,9 +48,9 @@ const Animate = ({
   return createElement("div", {
     ref: ref,
     style: {
-      animationDuration
+      animationDuration: animationDuration
     },
-    className: inViewport && enterCount >= 1 ? `${styles.animation} ${animationType} ${classToGive || ''}` : styles.waitingAnimation
+    className: inViewport && enterCount >= 1 ? styles.animation + " " + animationType + " " + (classToGive || '') : styles.waitingAnimation
   }, children);
 };
 

@@ -60,7 +60,6 @@ class Example extends Component {
 
 index.css
 ```css
-
 /* Creating Custom Animation */
 
 .customAnimation {
